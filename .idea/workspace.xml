@@ -81,7 +81,9 @@
       <workItem from="1541038298282" duration="272000" />
       <workItem from="1650340883656" duration="2362000" />
       <workItem from="1650405004734" duration="2062000" />
-      <workItem from="1650576727896" duration="1313000" />
+      <workItem from="1650576727896" duration="1908000" />
+      <workItem from="1653682319288" duration="14000" />
+      <workItem from="1656775704603" duration="693000" />
     </task>
     <servers />
   </component>
@@ -124,6 +126,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
