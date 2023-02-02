@@ -36,12 +36,9 @@
         text-align: left;
     }
 
-
     a:after > img {
         content: "";
     }
-
-
 
     #header, nav, #footer, .exclude-print {
         display: none;
