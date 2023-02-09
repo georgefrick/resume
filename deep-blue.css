@@ -1,3 +1,4 @@
+/* if you are seeing this, I wrote it before I learned BEM/CUBE or started using tailwind. This needs a rewrite */
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
@@ -16,49 +17,25 @@ html, button, input, select, textarea,
     background-color: #95acca;
     text-align: center;
     text-transform: uppercase;
-    padding: 0.5em;
+    padding: 2em;
 }
 
 body {
     color: #2a3549;
-}
-
-@media screen and (min-width: 35.5em) {
-    /* A 3/4 height */
-    .container {
-        width: 960px;
-        margin: auto;
-        background-color: #f5f8fd;
-    }
-
-    .content-block {
-        margin-bottom: 1em;
-    }
-
-    .content .content-left, .content-right {
-        box-sizing: border-box;
-        padding: 1em 1em;
-    }
-
-}
-
-@media screen and (min-width: 48em) {
-    body {
-        padding: 2em;
-        color: #2a3549;
-    }
-
-    .heading {
-        background-color: #95acca;
-        text-align: center;
-        text-transform: uppercase;
-        padding: 2em;
-    }
-
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .content p {
     margin: 0;
+}
+.content-block {
+    margin-bottom: 2em;
+}
+
+.content .content-left, .content-right {
+    box-sizing: border-box;
+    padding: 1em 1em;
 }
 
 .content .experience {
@@ -77,6 +54,10 @@ body {
 .content-parent {
     margin-bottom: 1.75em;
     color: #3f5374;
+}
+
+.link {
+    font-size: smaller;
 }
 
 h1 {
@@ -109,4 +90,9 @@ h4 {
 ul {
     margin: 0;
     padding: 0 1.2em;
+}
+
+@media print {
+    .container-right { page-break-after: always;}
+
 }
