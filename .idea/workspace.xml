@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac99e868-ca54-4589-bcd7-fd982fbd771c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print.css" beforeDir="false" afterPath="$PROJECT_DIR$/print.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/George/projects/resume",
+    "last_opened_file_path": "C:/Users/creat/Projects/resume",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,6 +89,7 @@
       <workItem from="1653682319288" duration="14000" />
       <workItem from="1656775704603" duration="693000" />
       <workItem from="1675370028278" duration="1209000" />
+      <workItem from="1675979041451" duration="683000" />
     </task>
     <servers />
   </component>
